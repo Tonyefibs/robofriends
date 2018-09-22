@@ -1,5 +1,5 @@
-"homepage": "http://Tonyefibs.github.io/robofriends"
 {
+  "homepage": "http://Tonyefibs.github.io/robofriends",
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "robofriends -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.0.0"
